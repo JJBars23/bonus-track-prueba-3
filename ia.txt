@@ -2,3 +2,27 @@
 Promp: 
 Utilidad: 
 Correcciones: 
+
+
+=== ETAPA 2 ===
+Promp: 
+Utilidad: 
+Correcciones: 
+
+
+=== ETAPA 3 ===
+Promp: 
+Utilidad: 
+Correcciones: 
+
+
+=== ETAPA 4 ===
+Promp: 
+Utilidad: 
+Correcciones: 
+
+
+=== ETAPA 5 ===
+Promp: 
+Utilidad: 
+Correcciones: 

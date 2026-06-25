@@ -31,6 +31,8 @@ function App() {
     return pasaCategoria && pasaTexto
   })
 
+  const cantidadVegetarianas = recetas.filter((receta) => receta.esVegetariana).length
+
   return (
     <main className="App">
       <h1>Recetario</h1>
@@ -41,6 +43,10 @@ function App() {
         texto={texto}
         onTextoChange={manejarTexto}
       />
+
+      <p style={{ marginBottom: '16px', fontWeight: '600' }}>
+        Recetas vegetarianas: {cantidadVegetarianas}
+      </p>
 
       {recetasFiltradas.length === 0 ? (
         <p>No hay recetas que conicidan</p>

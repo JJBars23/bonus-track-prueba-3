@@ -7,8 +7,8 @@ No se realizaron correcciones.
 === ETAPA 2 ===
 Prompt: Corregir el componente RecetaCard para que use prop-types, renderice los textos con contenido JSX y quede funcional con la data de recetas.
 Utilidad: Mejorar la calidad del componente y evitar errores visuales y de validación. | útil
-Correcciones:
-No se realizaron correcciones.
+Correcciones: No se realizaron correcciones.
+
 
 === ETAPA 3 ===
 Prompt: Crear el componente ListaRecetas para recibir el array de recetas desde props, recorrerlo con map y renderizar un RecetaCard por cada receta.
@@ -25,6 +25,6 @@ Correcciones:
 
 
 === ETAPA 5 ===
-Promp: 
-Utilidad: 
-Correcciones: 
+Prompt: Agregar una etiqueta visual VEG a las recetas vegetarianas, mostrar un contador de recetas vegetarianas y mejorar la identificación visual en las tarjetas.
+Utilidad: Facilitar la detección rápida de recetas vegetarianas y ofrecer una métrica visible en la interfaz. | útil
+Correcciones: No se realizaron correcciones.

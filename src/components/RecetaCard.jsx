@@ -19,8 +19,34 @@ export function RecetaCard({
     colorFondo = 'lightpink';
   }
 
+  const estiloTarjeta = {
+    backgroundColor: colorFondo,
+    border: esVegetariana ? '3px solid #2e7d32' : '1px solid transparent',
+    position: 'relative',
+    paddingTop: esVegetariana ? '36px' : '16px',
+  };
+
   return (
-    <article className="receta-card" style={{ backgroundColor: colorFondo }}>
+    <article className="receta-card" style={estiloTarjeta}>
+      {esVegetariana && (
+        <span
+          style={{
+            position: 'absolute',
+            top: '10px',
+            right: '10px',
+            border: '1px solid #2e7d32',
+            borderRadius: '999px',
+            padding: '4px 8px',
+            backgroundColor: '#e8f5e9',
+            color: '#1b5e20',
+            fontSize: '0.8rem',
+            fontWeight: '700',
+            letterSpacing: '0.04em',
+          }}
+        >
+          VEG
+        </span>
+      )}
       <h2>{nombre}</h2>
       <p><strong>Origen:</strong> {origen}</p>
       <p><strong>Porciones:</strong> {porciones}</p>

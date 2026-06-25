@@ -41,13 +41,13 @@ esto mejora de gran manera la experiencia del usuario y haciendo la interfaz má
 ----------------------------------------------------------------------------------------
 
 Actividad 2
-    1. ¿Qué ventaja tiene dividir el recetario en componentes en lugar de escribir todo en un solo archivo?
+1. ¿Qué ventaja tiene dividir el recetario en componentes en lugar de escribir todo en un solo archivo?
 
     Al dividir la aplicación en componentes nos permite mantener el código más ordenado y fácil de entender, 
     facilitando el reutilizar componentes, corregir errores y agregar nuevas funcionalidades sin modificar 
     toda la aplicación.
 
-    2. ¿Qué diferencia hay entre props y estado en tu solución? Da un ejemplo concreto de cada uno.
+2. ¿Qué diferencia hay entre props y estado en tu solución? Da un ejemplo concreto de cada uno.
 
     Los props son datos que un componente padre envía a un componente hijo y se no deben modificar desde 
     el componente que las recibe. En esta aplicación, `recetas` envía a `RecetaCard` y a `ListaRecetas`

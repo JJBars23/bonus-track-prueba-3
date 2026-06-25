@@ -1,10 +1,8 @@
 export function FiltroBusqueda({ categoria, onCategoriaChange, texto, onTextoChange }) {
   return (
     <div style={{ marginBottom: '20px', display: 'flex', gap: '10px' }}>
-      
-      {/* Perilla de Categoría */}
-      <select 
-        value={categoria} 
+      <select
+        value={categoria}
         onChange={(e) => onCategoriaChange(e.target.value)}
       >
         <option value="Todas">Todas</option>
@@ -13,14 +11,14 @@ export function FiltroBusqueda({ categoria, onCategoriaChange, texto, onTextoCha
         <option value="Postre">Postre</option>
       </select>
 
-      {/* Entrada de Texto */}
-      <input 
-        type="text" 
-        value={texto} 
-        onChange={(e) => onTextoChange(e.target.value)} 
+      <input
+        type="search"
+        value={texto}
+        onChange={(e) => onTextoChange(e.target.value)}
         placeholder="Buscar receta..."
+        aria-label="Buscar receta"
+        maxLength={40}
       />
-      
     </div>
   )
 }

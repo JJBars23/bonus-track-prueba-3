@@ -18,9 +18,10 @@ Correcciones:
 - se re asignaron los colores de fondo por categoria de cada Receta.
 
 === ETAPA 4 ===
-Promp: 
-Utilidad: 
-Correcciones: 
+Prompt: Implementar el filtro de recetas por categoría y búsqueda por texto usando useState, además de mostrar un mensaje cuando no hay coincidencias.
+Utilidad: Mejorar la experiencia de búsqueda y permitir encontrar recetas más rápido según categoría y nombre. |útil
+Correcciones:
+- Se creo el codigo base del filtro
 
 
 === ETAPA 5 ===

@@ -20,7 +20,7 @@ export function RecetaCard({
   }
 
   return (
-    <div className="receta-card" style={{ backgroundColor: colorFondo }}>
+    <article className="receta-card" style={{ backgroundColor: colorFondo }}>
       <h2>{nombre}</h2>
       <p><strong>Origen:</strong> {origen}</p>
       <p><strong>Porciones:</strong> {porciones}</p>
@@ -28,7 +28,7 @@ export function RecetaCard({
       <p><strong>Descripción:</strong> {descripcion}</p>
       <p><strong>Ingredientes:</strong> {ingredientes.join(', ')}</p>
       <p><strong>Vegetariana:</strong> {esVegetariana ? 'Sí' : 'No'}</p>
-    </div>
+    </article>
   );
 }
 

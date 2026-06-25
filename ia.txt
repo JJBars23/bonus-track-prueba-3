@@ -8,9 +8,13 @@ Correcciones:
 
 
 === ETAPA 2 ===
-Promp: 
-Utilidad: 
-Correcciones: 
+Prompt: Crear el componente ListaRecetas para recibir el array de recetas desde props, recorrerlo con map y renderizar un RecetaCard por cada receta.
+Utilidad: Separar la lógica de listado del componente de presentación y permitir reutilizar el componente con distintos datos.
+Correcciones:
+- Se implementó el componente ListaRecetas para recibir recetas como prop.
+- Se utilizó .map() para recorrer el array y renderizar un RecetaCard por cada receta.
+- Se asignó la prop key usando el id de cada elemento.
+- Se definieron los PropTypes para validar la estructura del array de recetas.
 
 
 === ETAPA 3 ===

@@ -1,27 +1,21 @@
 === ETAPA 1 ===
-Prompt: Corregir el componente RecetaCard para que use prop-types, renderice los textos con contenido JSX y quede funcional con la data de recetas.
-Utilidad: Mejorar la calidad del componente y evitar errores visuales y de validación. | útil
-Correcciones:
-- Se añadió la importación de PropTypes y se definieron los tipos de props del componente.
-- Se corrigió la lógica de color para la categoría "Fondo".
-- Se ajustó el renderizado de los textos para usar contenido JSX con etiquetas de énfasis.
+Prompt: No se utilizo IA en esta etapa.
+Correcciones: 
+No se realizaron correcciones.
 
 
 === ETAPA 2 ===
-Prompt: Crear el componente ListaRecetas para recibir el array de recetas desde props, recorrerlo con map y renderizar un RecetaCard por cada receta.
-Utilidad: Separar la lógica de listado del componente de presentación y permitir reutilizar el componente con distintos datos.
+Prompt: Corregir el componente RecetaCard para que use prop-types, renderice los textos con contenido JSX y quede funcional con la data de recetas.
+Utilidad: Mejorar la calidad del componente y evitar errores visuales y de validación. | útil
 Correcciones:
-- Se implementó el componente ListaRecetas para recibir recetas como prop.
-- Se utilizó .map() para recorrer el array y renderizar un RecetaCard por cada receta.
-- Se asignó la prop key usando el id de cada elemento.
-- Se definieron los PropTypes para validar la estructura del array de recetas.
-
+No se realizaron correcciones.
 
 === ETAPA 3 ===
-Promp: 
-Utilidad: 
-Correcciones: 
-
+Prompt: Crear el componente ListaRecetas para recibir el array de recetas desde props, recorrerlo con map y renderizar un RecetaCard por cada receta.
+Utilidad: Separar la lógica de listado del componente de presentación y permitir reutilizar el componente con distintos datos. | útil
+Correcciones:
+- Se configuro App.jsx para recivir la listra de recetas y mostrar cada RecetaCard.
+- se re asignaron los colores de fondo por categoria de cada Receta.
 
 === ETAPA 4 ===
 Promp: 

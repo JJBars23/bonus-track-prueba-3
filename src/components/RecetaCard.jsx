@@ -14,7 +14,7 @@ export function RecetaCard({
   if (categoria === 'Entrada') {
     colorFondo = 'lightblue';
   } else if (categoria === 'Fondo') {
-    colorFondo = 'lightgreen';
+    colorFondo = 'orange';
   } else if (categoria === 'Postre') {
     colorFondo = 'lightpink';
   }

@@ -1,7 +1,10 @@
 === ETAPA 1 ===
-Promp: 
-Utilidad: 
-Correcciones: 
+Prompt: Corregir el componente RecetaCard para que use prop-types, renderice los textos con contenido JSX y quede funcional con la data de recetas.
+Utilidad: Mejorar la calidad del componente y evitar errores visuales y de validación. | útil
+Correcciones:
+- Se añadió la importación de PropTypes y se definieron los tipos de props del componente.
+- Se corrigió la lógica de color para la categoría "Fondo".
+- Se ajustó el renderizado de los textos para usar contenido JSX con etiquetas de énfasis.
 
 
 === ETAPA 2 ===
